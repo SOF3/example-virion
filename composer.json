@@ -1,0 +1,24 @@
+{
+    "name": "sof3/example-virion",
+    "description": "This is an example virion",
+    "type": "library",
+    "require": {
+        "pocketmine/pocketmine-mp": "^4.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SOFe",
+            "email": "sofe2038@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": ["src"]
+    },
+    "extra": {
+        "virion": {
+            "spec": "3.0",
+            "namespace-root": "SOFe\\ExampleVirion"
+        }
+    }
+}
